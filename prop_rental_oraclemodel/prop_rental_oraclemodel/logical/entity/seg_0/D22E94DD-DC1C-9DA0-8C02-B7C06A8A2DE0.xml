@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D22E94DD-DC1C-9DA0-8C02-B7C06A8A2DE0" name="PROPERTY">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:08:23 UTC</createdTime>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prop_no" id="3AA198F5-E0C6-B1B1-1EE1-0B8713BE54D9">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:08:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[property number]]></commentInRDBMS>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prop_address" id="4FA5BD9F-703F-AF02-E3B9-65955C68B816">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:09:09 UTC</createdTime>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prop_value" id="01097AF7-1300-DD5F-911A-EFAE6FDCEAE8">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:09:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[value]]></commentInRDBMS>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_no" id="FEEB3AAC-DC1F-9B9F-DB6F-AE23AF47EB7E">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:10:29 UTC</createdTime>
+<generatorID>CBCABC7C-779F-C42A-4C1E-FBD59922A0AB</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<referedAttribute>42658BE8-98D1-42CF-4E45-79E216174324</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C8110D2-845B-F7FA-3275-666CCB5EE9C2" name="PROPERTY PK">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:09:05 UTC</createdTime>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AA198F5-E0C6-B1B1-1EE1-0B8713BE54D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

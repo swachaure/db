@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="damage_payment" directorySegmentName="seg_0" id="B30B6BDD-3F87-2693-E200-2B22FC9B00D9">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:12:50 UTC</createdTime>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<sourcePk>134555F9-83A1-B925-5855-D7F2AF6A6584</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>paid_via</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEA31DAD-37C6-0D8A-340C-DEB79938352F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0921089C-BE1C-7521-EA0C-B7C57F678E42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

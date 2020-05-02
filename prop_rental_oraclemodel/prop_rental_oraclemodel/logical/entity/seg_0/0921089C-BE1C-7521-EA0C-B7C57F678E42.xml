@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0921089C-BE1C-7521-EA0C-B7C57F678E42" name="PAYMENT">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 06:33:09 UTC</createdTime>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pay_no" id="E0311469-7ED8-97FA-850B-0F8A3E3B3A02">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 06:34:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[payment number]]></commentInRDBMS>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pay_date" id="790D3544-D387-B4E6-33D2-E7916C270E0D">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 06:34:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[date of payment]]></commentInRDBMS>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pay_type" id="58F9BB80-BCEA-EC1F-72B1-A9D618D1CB4D">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 06:35:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[type of payment]]></commentInRDBMS>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pay_amount" id="4D189915-CBC3-4EEC-E64B-3A1A0EDC4C12">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 06:35:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[amount of payment]]></commentInRDBMS>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rent_lease_startdate" id="3B00739C-E65F-284B-E636-26A1AC888C3E">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 08:31:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[starting date]]></commentInRDBMS>
+<generatorID>2739F2EE-202D-5E2B-0132-C62842FD246B</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<referedAttribute>AC036A24-3CF7-1DED-D180-5D95728127D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prop_no" id="E43438F3-A0F4-DE2B-FAF5-639896E39395">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:12:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[property number]]></commentInRDBMS>
+<generatorID>B30B6BDD-3F87-2693-E200-2B22FC9B00D9</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1EDA9860-08BE-B617-4BCF-75B529F1401D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dam_date" id="8A2D20F9-A069-2F7B-3A19-F28E298BBFB4">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:12:50 UTC</createdTime>
+<generatorID>B30B6BDD-3F87-2693-E200-2B22FC9B00D9</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DD4AB86B-324B-B27B-2823-CF83451A69AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dam_time" id="6EDDD196-F268-69CD-903F-6E1ABC66AB19">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:12:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[time]]></commentInRDBMS>
+<generatorID>B30B6BDD-3F87-2693-E200-2B22FC9B00D9</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DC2EE3F3-80D4-2602-55C3-F615D6825D65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

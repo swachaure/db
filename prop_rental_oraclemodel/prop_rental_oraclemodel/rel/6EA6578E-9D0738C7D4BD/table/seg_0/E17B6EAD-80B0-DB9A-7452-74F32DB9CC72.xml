@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E17B6EAD-80B0-DB9A-7452-74F32DB9CC72" name="rent">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<generatorID>831F9F8E-9781-59AE-B77E-C92A25AA72E5</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rent_lease_startdate" id="6EF5F804-F018-7B40-F7E0-F21B57CB1EB0">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[starting date]]></commentInRDBMS>
+<generatorID>AC036A24-3CF7-1DED-D180-5D95728127D7</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rent_bond" id="15E2A6BF-96C4-2EF8-A9AD-85806560DE79">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[bond]]></commentInRDBMS>
+<generatorID>4FDB1ADA-E1CF-9A7A-EF59-CD83E00E8097</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rent_lease_period" id="2BA9207E-52A2-6EF1-8EAD-16202B9BB7AE">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[rent lease period]]></commentInRDBMS>
+<generatorID>E6F0F81F-7952-8F52-9D11-100D7E659C26</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tenant_no" id="6F261367-00A6-BCE8-A6EC-96B0419DE534">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[tenant number]]></commentInRDBMS>
+<generatorID>2C47F4CD-A192-6608-50DB-7EEA735BBFD0</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E2FCD67-6A35-A66A-0B97-4B3296AAE693" referredColumn="FE523965-A28E-6358-B93D-C98DC38F7BB6"/>
+</associations>
+</Column>
+<Column name="prop_no" id="8BCF9FC6-1EEE-3084-C338-FA5C282B2190">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[property number]]></commentInRDBMS>
+<generatorID>8D23EBC6-F911-FB13-CA04-4A50F1FB6DFF</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A542F6B8-1D99-2D13-E56B-A451105A4D07" referredColumn="DF03CBF9-3930-11DE-ADF8-ECA1FBEFF523"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="535DD100-6B13-5F50-2019-32A3E7406630" name="PROPERTY_TENANT_PK">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<generatorID>A18C61EC-D9BC-AFBA-640A-B5FDE783D943</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF5F804-F018-7B40-F7E0-F21B57CB1EB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A223E51-6407-4BAA-011D-BE5859EAF31F" name="property_rent">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<generatorID>8AA82BC8-0AE2-77DA-9F23-1371B53F3870</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BCF9FC6-1EEE-3084-C338-FA5C282B2190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CBB5FCC-6F50-3628-6601-124623FB8D87" name="tenant_rent">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<generatorID>66FDE4D7-7EBF-7595-6A82-34BEF113086B</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F261367-00A6-BCE8-A6EC-96B0419DE534"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="owner_property" directorySegmentName="seg_0" id="CBCABC7C-779F-C42A-4C1E-FBD59922A0AB">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:10:29 UTC</createdTime>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="6EA6578E-67A0-7EF8-F041-9D0738C7D4BD" value="true"/>
+</engineerTo>
+<sourcePk>E7F7BF39-967B-5ACE-4CEC-33CF165BCD18</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>owns</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C1D4ADF6-E892-38A3-09BE-87F0D1777566</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D22E94DD-DC1C-9DA0-8C02-B7C06A8A2DE0</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE2362C1-244E-5003-3A9B-1F949594F51F" name="OWNER">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<generatorID>C1D4ADF6-E892-38A3-09BE-87F0D1777566</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="owner_no" id="F75DB3F4-D4BD-D942-D1BB-E93CAC024241">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<generatorID>42658BE8-98D1-42CF-4E45-79E216174324</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="owner_name" id="60315FB3-166A-6237-7A29-2746D35E5B48">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[name]]></commentInRDBMS>
+<generatorID>5BD6B5B3-929F-34B2-F8DA-7546066A4E15</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4380761-93EC-A01C-B380-DB0FF957DED6" name="OWNER_PK">
+<createdBy>asai0009</createdBy>
+<createdTime>2020-05-02 09:39:16 UTC</createdTime>
+<generatorID>E7F7BF39-967B-5ACE-4CEC-33CF165BCD18</generatorID>
+<ownerDesignName>prop_rental_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F75DB3F4-D4BD-D942-D1BB-E93CAC024241"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
